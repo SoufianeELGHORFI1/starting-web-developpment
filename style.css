@@ -1,0 +1,21 @@
+body{
+
+}
+
+
+
+
+
+
+.astro{
+    display: flex;
+    align-items: center;
+}
+.hulot{
+    display: flex;
+    align-items: center;
+}
+.alien{
+    display: flex;
+    align-items: center;
+}
