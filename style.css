@@ -1,21 +1,81 @@
-body{
-
+body {
+    background-color: #ebebeb;
+}
+.imag {
+    
+    position: relative;
+    border-radius: 200px;
+    left: 34%;
+    height: 150px;
+    width: 150px;
+    /*Mettre l'image en background après avoir fait le blok en cercle*/
+    background-image: url(images/profil.jpeg);
+    background-size: contain; /*pour que l'image complète la place du block rond*/
+}
+.texte {
+    margin: 0 15% 0 15%;
+    text-align: justify;
 }
 
+.Titre{
+    text-align: center;
+}
 
-
-
-
-
-.astro{
+.boutton{
+    text-align: center;
+}
+.button-color {
+    border: none;
+    margin-bottom: 15px;
+    background-color: #dd5454;
+    color: white;
+    padding: 8px 8px 8px 8px;
+    border-radius: 4px;
+}
+.blok {
+    background-color: white;
+    border-radius: 3px;
+    margin: 0 33% 0 33%;
+    
+}
+.social {
+    background-color: white;
+    width: 540px;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+ul {
+    text-align: center;
+    padding: 10px 70px 0px 70px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.nom {
+    text-align: center;
+    padding: 0px 40px 15px 45px;
+    border-radius: 3px;
+    
+    justify-content: space-between;
+}
+.movies {
+    background-color: white;
+    border-radius: 3px;
+    margin: 0 33% 0 33%;
+}
+h2{
+    text-align: center;
+}
+.film{
     display: flex;
     align-items: center;
+    align-items: flex-start;
 }
-.hulot{
-    display: flex;
-    align-items: center;
+h3{
+    text-align: center;
 }
-.alien{
-    display: flex;
-    align-items: center;
+.film p {
+    text-align: justify;
 }
+
