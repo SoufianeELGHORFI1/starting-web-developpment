@@ -2,7 +2,7 @@
 
 Ce projet est une mini-biographie de la vie de Tim Berners-Lee.
 
-![](images/capture-ecran.png)
+![](images/Capture-ecran.png)
 
 # Langages utilisés
 
